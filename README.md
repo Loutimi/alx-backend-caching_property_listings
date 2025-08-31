@@ -37,15 +37,14 @@ signals, and monitor cache efficiency via Redis metrics.
 
 ## 📂 Project Structure
 
+    manage.py
     alx_backend_caching_property_listings/
-    │── manage.py
-    │── alx_backend_caching_property_listings/
-    │   ├── settings.py
-    │   ├── urls.py
-    │   ├── wsgi.py
-    │   └── asgi.py
-    │
-    └── properties/                # Main app for property listings
+        ├── settings.py
+        ├── urls.py
+        ├── wsgi.py
+        └── asgi.py
+    
+    properties/                    # Main app for property listings
         ├── models.py              # Property model
         ├── views.py               # property_list view with caching
         ├── utils.py               # get_all_properties & get_redis_cache_metrics
