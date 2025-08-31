@@ -127,7 +127,7 @@ def get_redis_cache_metrics():
 ### 1. Clone Repo
 
 ``` bash
-git clone https://github.com/your-username/alx_backend_caching_property_listings.git
+git clone https://github.com/loutimi/alx_backend_caching_property_listings.git
 cd alx_backend_caching_property_listings
 ```
 
